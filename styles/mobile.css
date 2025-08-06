@@ -1,0 +1,157 @@
+/* Mobile Dropdown Styling */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #092b02;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.75rem 1rem;
+  }
+
+  .services-box {
+    background-color: #092b02;
+  }
+
+  .section-1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  
+
+
+}
+
+.image-box {
+  width: 100%;
+  height: 400px;
+  
+}
+
+.Dummy-text {
+  
+  padding-left: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #3a523e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+ 
+}
+
+.info-box-sub{
+  background-color: #c9e9c9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+
+}
+
+.info-box-sub-2{
+  background-color: #c9e9c9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.info-box-sub-3{
+  background-color: #c9e9c9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+
+
+.bottom-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background-color: #19241b;
+  color: #ffffff;
+  
+}
+
+.whatsapp-logo {
+  height: 25px;
+  padding-left: 20px;
+}
+
+ .section-3 {
+    flex-direction: column;
+    align-items: center;
+ }
+
+  .image-box-2{
+  width: 100%;
+  padding: 20px;
+  
+
+}
+
+.image-5 {
+  width: 100%;
+}
+
+.About-us-div{
+  width: 100%;
+  
+}
+
+.heading-3 {
+  padding-bottom: 20px;
+}
+
+.floaters {
+  animation-name: fadein;
+  animation-duration: 2s;
+
+
+  position:fixed;
+  top: 900px;
+  left: 0;
+  z-index: 1;
+}
+
+
+
+
+
+.footer {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+}
+}

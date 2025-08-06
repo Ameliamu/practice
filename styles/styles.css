@@ -1,0 +1,430 @@
+/*logo style*/
+
+.Logo {
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    color: #e0e0e0;
+}
+
+.Logo-span {
+   color: rgb(4, 19, 3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../pictures/11.jpg');
+   background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps the image from moving during scroll.*/
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* Custom navbar style */
+.navbarh {
+  background-color: #0f7420 !important;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+  transform: translateY(-100%);
+  opacity: 0;
+  animation: slideDown 2s ease-out forwards;
+  
+}
+
+/* Custom navbar style */
+.navbar {
+  background-color: #1f3f24 !important;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f8f9fa !important;
+}
+
+.navbar-brand:hover {
+  color: #e0e0e0 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ccc !important;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.375rem;
+}
+
+.navbar-toggler {
+  
+  border-color: #000000;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  
+}
+
+.services-box {
+    background-color: #1f3f24 ;
+    color: #ccc;
+    border: none;
+    width: 80px;
+}
+
+.navbar-2 {
+  background-color: #2ef04e !important;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-text-span {
+  color: #ffffff;
+
+}
+
+.banner {
+  height: 100vh; /*vh means viewport height.100 means 100% of the screen. means the banner is exactly as tall as the users screen.*/
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../pictures/11.jpg'); /*when css file is in file try extra steps. (../pictures/11.jpg)*/
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps the image from moving during scroll.*/
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+ 
+}
+
+.heading-1{
+ 
+  animation-name: fadein;
+  animation-duration: 15s  ;
+ 
+ 
+
+}
+
+.arrow {
+    margin-top: 40px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding: 3px;
+     animation: fadein 12s ;
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-div
+{
+    
+    animation: bounce 3s infinite;
+   
+
+}
+
+
+.banner-2 {
+  background-color: #3a523e !important;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.banner-3 {
+  
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #108323;
+  text-align: center;
+  color: #fff;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.image-box {
+  width: 800px;
+  height: 400px;
+  padding-right: 30px;
+  
+}
+
+.image-1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  
+}
+
+.Dummy-text {
+  
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+
+.heading-2{
+ 
+text-align: center;
+background-color: #3a523e;
+padding-bottom: 25px;
+padding-top: 25px;
+color: #ffffff;
+}
+
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  background-color: #3a523e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+ 
+}
+
+.info-box-sub{
+  background-color: #c9e9c9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-left: 20px;
+  margin-right: 6px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.info-box-sub-2{
+  background-color: #c9e9c9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 6px;
+  margin-right: 6px;
+  margin-bottom: 25px;
+}
+
+.info-box-sub-3{
+  background-color: #c9e9c9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.green-button {
+  background-color: #3a523e;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.green-button:hover {
+  background-color: #2f4032;
+  transform: scale(1.05);
+}
+
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+ padding-top: 20px;
+  background-color: #e2e2e2;
+  padding-bottom: 20px;
+
+}
+
+.image-2 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.polaroid{
+
+   width: 300vh;/* adjust as needed */
+  background: white;
+  padding: 10px 10px 40px 10px; /* more padding at bottom */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  transform: rotate(-2deg); /* slight tilt for style */
+  transition: transform 0.3s ease;
+
+
+}
+
+.bottom-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background-color: #19241b;
+  color: #ffffff;
+  
+}
+
+.footer {
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+ 
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.side-text {
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: space-between;
+
+  animation-name: fadein;
+  animation-duration: 2s;
+  
+  font-weight: bold;
+  font-size: 30px;
+  right: 0;
+  top: 500px;
+  position: fixed;
+  z-index: 1;
+}
+
+.side-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+
+.whatsapp-logo {
+  height: 35px;
+  padding-left: 20px;
+}
+
+.floaters {
+   animation-name: fadein;
+  animation-duration: 2s;
+
+  position:fixed;
+  top: 900px;
+  left: 20px;
+  z-index: 1;
+}
+
+.section-3 {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.image-box-2{
+
+  width: 800px ;
+
+
+}
+
+.image-5{
+  width: 100%;
+
+
+}
+
+.About-us-div{
+  width: 800px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.About-us-div-2{
+  background-color: #2f4b33;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.About-us-link{
+  text-decoration: none;
+  color: #ffffff;
+
+
+}
+
+.heading-3 {
+  padding-bottom: 40px;
+}
