@@ -119,6 +119,24 @@ body{
  
 }
 
+.banner-2 {
+  height: 60vh; /*vh means viewport height.100 means 100% of the screen. means the banner is exactly as tall as the users screen.*/
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../pictures/111.webp'); /*when css file is in file try extra steps. (../pictures/11.jpg)*/
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps the image from moving during scroll.*/
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  padding-left: 40px;
+  padding-right: 40px;
+ 
+}
+
 .heading-1{
  
   animation-name: fadein;
@@ -427,4 +445,115 @@ color: #ffffff;
 
 .heading-3 {
   padding-bottom: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sub-header-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+ 
+}
+
+.header-para {
+  margin: 0;
+}
+
+.img-777 {
+  border-radius: 15px;
+  width: 60%;
+  height: auto;
+  display: block;
+}
+
+.section-11{
+  display: flex;
+  flex-direction: row;
+  background-color: #cecece;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  
+ 
+}
+
+.sub-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  width: 50%;
+
+}
+
+.sub-section-2{
+  width: 50%;
+  
+
+}
+
+
+
+.img-333 {
+  width: 100%;
+}
+
+.section-22{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #cecece;
+
+}
+
+.sub-section-3 {
+  
+ width: 50%;
+
+}
+
+.sub-section-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  width: 50%;
+
+}
+
+
+.section-33{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../pictures/2222.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  justify-content: center;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #cecece;
+  height: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
